@@ -23,21 +23,21 @@
         <div class="">
             <div class="hero-content flex-col lg:flex-row-reverse">
                 <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
-                    <div class="card-body">
+                    <form class="card-body">
                         <fieldset class="fieldset">
-                            <label class="fieldset-label">Account Number</label>
-                            <input type="number" class="input" placeholder="Enter Your Number" />
+                            <label class="fieldset-label">Account number</label>
+                            <input value="01745435307" id="Account-Number" type="number" class="input" placeholder="Enter your number" required />
                             <label class="fieldset-label">Pin  </label>
-                            <input type="text" class="input" placeholder="Enter 4 Digit Pin" />
+                            <input value="1234" id="pin-number" type="text" class="input" placeholder="Enter 4 digit pin" required />
                             <div><a class="link link-hover">Forgot password?</a></div>
                             <button id="login-btn" class="btn btn-neutral mt-4">Login</button>
                         </fieldset>
-                    </div>
+                    </form>
                 </div>
             </div>
         </div>
     </section>
-    <script src="./script/login.js"></script>
+    <script src="./script/login.js "></script>
 </body>
 
 </html>
