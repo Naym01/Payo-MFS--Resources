@@ -71,7 +71,7 @@
                     <p class="text-xs"> Pay Bill </p>
                 </div>
                 <!-- car six -->
-                <div
+                <div id="transaction-icon"
                     class="border border-slate-400 shadow-sm rounded space-x-5 text-center w-20 h-16 pt-2  hover:border-blue-500">
                     <img class="ml-8" src="./assets/purse1.png" alt="">
                     <p class="text-xs"> Transaction </p>
@@ -88,7 +88,7 @@
                         <div class="card w-full max-w-sm shrink-0 shadow-2xl">
                             <div class="card-body">
 
-                                <select class="select">
+                                <select id="allbank" class="select">
                                     <legend> Select A Bank </legend>
                                     <option disabled selected> select bank </option>
                                     <option value="Bkash">Bkash</option>
@@ -145,6 +145,14 @@
                 </div>
             </section>
 
+            <!-- transaction section -->
+             <section id="transection-box">
+                <h2 class="text-3xl font-bold p-3 text-center text-red-400">Transection History</h2>
+                <div id="transection-history">
+
+                </div>
+             </section>
+
         </main>
     </div>
 
@@ -152,6 +160,7 @@
     <script src="utilities/utilities.js"></script>
    <script src="script/functionToggle.js"></script>
     <script src="script/functionCashout.js"></script>
+    <script src="script/transaction.js"></script>
 
    
 </body>

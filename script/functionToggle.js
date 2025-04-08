@@ -1,9 +1,11 @@
 
 document.getElementById("cashout-box").style.display = " none "
+document.getElementById("transection-box").style.display = " none "
 
 document.getElementById("add-money-icon").addEventListener("click",function(){
     handleToggle("add-monney-box","block")
     handleToggle("cashout-box","none")
+    handleToggle("transection-box","none")
 })
 
 
@@ -11,21 +13,18 @@ document.getElementById("cashout-icone").addEventListener("click",function(){
   
     handleToggle("add-monney-box","none")
     handleToggle("cashout-box","block")
+    handleToggle("transection-box","none")
 })
 
 
-// // practise Toggle by function: 
+document.getElementById("transaction-icon").addEventListener("click",function(){
+  
+    handleToggle("add-monney-box","none")
+    handleToggle("cashout-box","none")
+    handleToggle("transection-box","block")
 
-// document.getElementById("cashout-box").style.display = "none";
+})
 
-// document.getElementById("add-money-icon").addEventListener("click",function(){
-//     handletoggle("add-monney-box","block")
-//     handletoggle("cashout-box","none")
-// })
-// document.getElementById("cashout-icone").addEventListener("click",function(){
-//     handletoggle("cashout-box","block")
-//     handletoggle("add-monney-box","none")
-// })
 
 
 

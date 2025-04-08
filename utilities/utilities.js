@@ -26,8 +26,3 @@ function handleToggle(id,status){
 
 }
 
-
-// // toogle function practice: 
-// function handletoggle (id,status){
-//     document.getElementById(id).style.display = status;
-// }
